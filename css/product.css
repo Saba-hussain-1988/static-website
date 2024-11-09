@@ -1,0 +1,19 @@
+.container{
+    padding-top: 15% ;
+}
+h1{
+    font-weight: 300;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+@media (max-width: 768px) {
+    h1{
+        margin-left: 20%;
+        margin-right: 20%; 
+    }
+}
+@media (max-width: 480px) {
+    .container{
+        padding-top: 30%;
+    }
+}
